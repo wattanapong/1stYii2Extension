@@ -1,6 +1,6 @@
 {
     // package name
-    "name": "wattanapong.su/1stYii2Extension",
+    "name": "wattanapong/1stYii2Extension",
 
     // package type
     "type": "yii2-extension",
@@ -26,7 +26,7 @@
 	
 	"autoload": {
         "psr-4": {
-            "wattanapong.su\\FirstStep\\": ""
+            "wattanapong\\FirstStep\\": ""
         }
     }
 }
