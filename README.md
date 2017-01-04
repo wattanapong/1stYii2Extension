@@ -6,8 +6,8 @@ Installation
 
 To install, either run
 
-$ php composer.phar require wattanapong.su/1stYii2Extension
+$ php composer.phar require wattanapong.su/1stYii2Extension  : "@dev"
 
 or add
 
-" wattanapong.su/1stYii2Extension"
+" wattanapong.su/1stYii2Extension" : "@dev"
