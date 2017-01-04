@@ -8,7 +8,7 @@
    * @subpackage first extension 
    * @author     Wattanapong Suttapak <wattanapong.su@up.ac.th>
    */
-namespace wattanapong.su\FirstStep;
+namespace wattanapong\FirstStep;
 
 use Yii;
 
