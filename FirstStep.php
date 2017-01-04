@@ -14,13 +14,14 @@ use Yii;
 
 class FirstStep{
 
-	private $author = "Wattanapong Suttapak";
     public function init()
     {
-        
+        if ($author === null){
+			$this->author = "Wattanapong Suttapak";
+		}
     }
 
-    public function greeting($msg){
+    public static function greeting($msg){
 		return ($this->getOE()==0?"Hello":"Hi").", This is greeting from ".$this->author.".";
 	}
 	
