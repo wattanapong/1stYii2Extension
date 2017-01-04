@@ -22,10 +22,10 @@ class FirstStep{
     }
 
     public static function greeting($msg){
-		return ($this->getOE()==0?"Hello":"Hi").", This is greeting from ".$this->author.".";
+		return (FirstStep::getOE()==0?"Hello":"Hi").", This is greeting from ".$this->author.".";
 	}
 	
-	private function getOE(){
+	private static function getOE(){
 		return rand(0,1);
 	}
 }
