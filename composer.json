@@ -1,10 +1,6 @@
 {
-    // package name
     "name": "wattanapong/1stYii2Extension",
-
-    // package type
     "type": "yii2-extension",
-
     "description": "First extension for the Yii2 framework",
     "keywords": ["yii2", "first", "extension", "wattanapong"],
     "license": "BSD-3-Clause",
@@ -18,13 +14,10 @@
             "email": "wattanapong.su@up.ac.th"
         }
     ],
-
-    // package dependencies
     "require": {
         "yiisoft/yii2": "*",
     },
-	
-	"autoload": {
+    "autoload": {
         "psr-4": {
             "wattanapong\\FirstStep\\": ""
         }
